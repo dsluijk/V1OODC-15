@@ -1,4 +1,4 @@
-package p3;
+package w2.p3;
 
 /**
  * Handles a student.
@@ -11,6 +11,7 @@ public class Leerling {
 
   /**
    * Constructor, sets the name of the student.
+   * @param name Name of the student.
    */
   public Leerling(String name) {
     this.name = name;

@@ -1,4 +1,4 @@
-package p2;
+package w1.p2;
 
 /**
  * Handle track keeping of football club scores.
@@ -15,6 +15,7 @@ public class Voetbalclub {
 
   /**
    * Constructor, sets the club name.
+   * @param clubName Name of the club.
    */
   public Voetbalclub(String clubName) {
     this.clubName = clubName;

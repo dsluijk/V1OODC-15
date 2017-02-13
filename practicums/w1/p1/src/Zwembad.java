@@ -1,4 +1,4 @@
-package p1;
+package w1.p1;
 
 /**
  * Handles the size of a swimming pool.

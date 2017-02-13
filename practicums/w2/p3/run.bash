@@ -1,4 +1,4 @@
 mkdir -p dist
 javac -d dist src/*.java
 cd dist
-java p2.Main
+java w2.p3.Main

@@ -1,4 +1,4 @@
-package p3;
+package w2.p3;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +14,7 @@ public class Klas {
 
   /**
    * Constructor, sets the class name.
+   * @param className Name of the class.
    */
   public Klas(String className) {
     this.className = className;

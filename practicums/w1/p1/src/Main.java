@@ -1,4 +1,4 @@
-package p1;
+package w1.p1;
 
 public class Main {
   public static void main(String[] arg) {
