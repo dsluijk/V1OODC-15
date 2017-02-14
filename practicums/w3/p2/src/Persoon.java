@@ -28,6 +28,7 @@ public class Persoon {
 
   /**
    * Buy a new game, if possible.
+   * @param game The game to buy.
    * @return Indication if the transaction succeeded.
    */
   public boolean koop(Game game) {
@@ -47,6 +48,8 @@ public class Persoon {
 
   /**
    * Sell a game from this person.
+   * @param game Game to sell.
+   * @param koper Buyer of the game.
    * @return Indication if the transaction succeeded.
    */
   public boolean verkoop(Game game, Persoon koper) {
