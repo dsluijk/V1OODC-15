@@ -48,13 +48,27 @@ public class Voetbalclub {
   };
 
   /**
+   * Returns the amount of games played.
+   * @return The amount of games.
+   */
+  public int gamesAmount() {
+    return this.wins + this.ties + this.loses;
+  };
+
+  /**
+   * Returns the total score of the club.
+   * @return The score.
+   */
+  public int totalScore() {
+    return (this.wins * 3) + this.ties;
+  };
+
+  /**
    * Returns a formatted row for display.
    * @return A formatted string.
    */
   public String toString() {
-    int score = (this.wins * 3) + this.ties;
-    int games = this.wins + this.ties + this.loses;
-    return this.clubName + "\t" + games + "\t\t" + this.wins + "\t"
-      + this.ties + "\t" + this.loses + "\t\t" + score;
+    return this.clubName + "\t" + this.gamesAmount() + "\t\t" + this.wins + "\t"
+      + this.ties + "\t" + this.loses + "\t\t" + this.totalScore();
   };
 };
